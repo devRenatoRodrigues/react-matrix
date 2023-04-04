@@ -4,7 +4,10 @@ const INITIAL_STATE = {
 
 const selectedPill = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    // implemente aqui
+    case 'RED_PILL':
+      return {
+        id: state.id + action.payload,
+      };
     default:
       return state;
   }

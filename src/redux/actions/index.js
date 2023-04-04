@@ -1,3 +1,4 @@
 export const understandMatrix = (id) => ({
-  // implemente aqui
+  type: 'RED_PILL',
+  payload: id,
 });
